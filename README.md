@@ -1,77 +1,204 @@
-<<<<<<< HEAD
-# React + TypeScript + Vite
+# 🛍️ Kith & Kin – Luxury E-Commerce Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, elegant, and fully responsive luxury e-commerce web application built with **React, TypeScript, Vite, and Tailwind CSS**.
+Designed with a premium UI/UX approach, Kith & Kin delivers a seamless shopping experience with advanced features like cart management, wishlist functionality, product filtering, and smooth animated interactions.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Live Demo
 
-## React Compiler
+`https://[kith-kin.vercel.app](https://kith-kin.vercel.app/)`
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+# 🚀 Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+* ⚛️ React 19
+* 🟦 TypeScript
+* ⚡ Vite
+* 🎨 Tailwind CSS
+* 🧠 Context API (State Management)
+* 🔀 React Router DOM
+* 📦 Fake Store API
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+# 🧩 Features
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 🖥️ Modern UI / UX
+
+* Glassmorphic responsive navbar with blur effect
+* Animated hero section with canvas particle effects
+* Smooth hover animations and transitions
+* Fully responsive design (Mobile, Tablet & Desktop)
+
+---
+
+## 🛒 E-Commerce Functionality
+
+* Product listing with responsive grid layout
+* Product detail page with image gallery
+* Add to cart / remove from cart
+* Dynamic quantity management
+* Wishlist system
+* Multi-step checkout flow
+* Order success confirmation page
+
+---
+
+## 🔍 Search & Filtering
+
+* Live product search
+* Category-based filtering
+* Price range slider
+* Rating filter
+* Product sorting:
+
+  * Price
+  * Rating
+  * Name
+
+---
+
+## ⚙️ Performance Optimization
+
+* Lazy image loading
+* Debounced search
+* Memoized components
+* API caching strategy
+
+---
+
+# 📄 Pages Included
+
+* 🏠 Home Page
+* 🛍️ Collections / Shop
+* 📦 Product Details
+* ❤️ Wishlist
+* 🛒 Cart Drawer
+* 💳 Checkout Flow
+* ✅ Payment & Order Success
+
+---
+
+# 🎨 Design System
+
+### Color Palette
+
+| Purpose    | Color                   |
+| ---------- | ----------------------- |
+| Primary    | `#1d2b30` (Deep Teal)   |
+| Accent     | `#fed286` (Luxury Gold) |
+| Background | `#fbf8ec` (Warm Cream)  |
+
+### Typography
+
+* **Playfair Display** → Headings
+* **Inter** → UI Text
+* **Manrope** → Body Text
+
+---
+
+# 📁 Project Structure
+
+```bash
+src/
+ ├── components/
+ ├── pages/
+ ├── context/
+ ├── hooks/
+ ├── assets/
+ ├── routes/
+ └── main.tsx
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+# ⚙️ Installation & Setup
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Clone the Repository
+
+```bash
+git clone https://github.com/your-username/kith-kin.git
+cd kith-kin
 ```
-=======
-# Kith-Kin
->>>>>>> f3b5d98e1acb89e659097dcd237bd9d93aca991a
+
+## Install Dependencies
+
+```bash
+npm install
+```
+
+## Run Development Server
+
+```bash
+npm run dev
+```
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+## Preview Production Build
+
+```bash
+npm run preview
+```
+
+---
+
+# 📸 Screenshots
+
+## 🏠 Home Page
+
+```md
+![Home Page](./screenshot/homepage.png)
+```
+
+## 🆕 New Arrival Collection
+
+```md
+![New Arrival Page](./screenshot/Newarrivalpage.png)
+```
+
+## 📦 Product Details
+
+```md
+![Product Detail](./screenshot/detailpage.png)
+```
+
+## 🛒 Add to Cart
+
+```md
+![Add To Cart](./screenshot/addtocart.png)
+```
+
+## 💳 Checkout Page
+
+```md
+![Checkout Page](./screenshot/checkoutpage.png)
+```
+
+## 💰 Payment Page
+
+```md
+![Payment Page](./screenshot/paymentpage.png)
+```
+
+## 👣 Footer Section
+
+```md
+![Footer](./screenshot/footer.png)
+```
+
+---
+
+
+# 👩‍💻 Author
+
+**Noor Huda**
+Django Developer | React.js Projects | AI & ML Enthusiast
+
+---
