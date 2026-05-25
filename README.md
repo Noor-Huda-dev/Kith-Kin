@@ -38,7 +38,6 @@ A modern, elegant, and fully responsive luxury e-commerce web application built 
 - Product listing with responsive grid layout
 - Product detail page with image gallery
 - Add to cart / remove from cart
-- Dynamic quantity management
 - Wishlist system
 - Multi-step checkout flow
 - Order success confirmation page
@@ -51,12 +50,6 @@ A modern, elegant, and fully responsive luxury e-commerce web application built 
 - Category-based filtering
 - Price range slider
 - Rating filter
-
-### Product Sorting
-
-- Price
-- Rating
-- Name
 
 ---
 
@@ -116,41 +109,6 @@ src/
 
 ---
 
-# ⚙️ Installation & Setup
-
-## Clone the Repository
-
-```bash
-git clone https://github.com/your-username/kith-kin.git
-cd kith-kin
-```
-
-## Install Dependencies
-
-```bash
-npm install
-```
-
-## Run Development Server
-
-```bash
-npm run dev
-```
-
-## Build for Production
-
-```bash
-npm run build
-```
-
-## Preview Production Build
-
-```bash
-npm run preview
-```
-
----
-
 # 📸 Screenshots
 
 ## 🏠 Home Page
@@ -199,3 +157,40 @@ npm run preview
 
 **Noor Huda**  
 Django Developer | React.js Projects | AI & ML Enthusiast
+
+---
+
+# ⚙️ Installation & Setup
+
+## Clone the Repository
+
+```bash
+git clone https://github.com/your-username/kith-kin.git
+cd kith-kin
+```
+
+## Install Dependencies
+
+```bash
+npm install
+```
+
+## Run Development Server
+
+```bash
+npm run dev
+```
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+## Preview Production Build
+
+```bash
+npm run preview
+```
+
+---
