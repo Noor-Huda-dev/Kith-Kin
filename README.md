@@ -153,13 +153,6 @@ src/
 
 ---
 
-# 👩‍💻 Author
-
-**Noor Huda**  
-Django Developer | React.js Projects | AI & ML Enthusiast
-
----
-
 # ⚙️ Installation & Setup
 
 ## Clone the Repository
@@ -192,5 +185,11 @@ npm run build
 ```bash
 npm run preview
 ```
+---
+
+# 👩‍💻 Author
+
+**Noor Huda**  
+Django Developer • React.js Developer • AI/ML Enthusiast
 
 ---
